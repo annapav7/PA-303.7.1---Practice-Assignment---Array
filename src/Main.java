@@ -89,7 +89,7 @@ public class Main {
 
         for (int i = 0; i < array5.length ; i++) {
             System.out.println("The index [" + i + "]: " + i);
-            System.out.println("The value of the loop at index [" + i + "]: " + array5[i]);
+            System.out.println("The value of the element at index [" + i + "]: " + array5[i]);
         }
 
         System.out.println();
@@ -184,7 +184,7 @@ public class Main {
          */
         Scanner scan = new Scanner(System.in);
         System.out.println("How many favorite things you have? ");
-        System.out.println("Please, enter the number: ");
+        System.out.println("Please, enter the number of your favorite things: ");
         int num = scan.nextInt();
 
         // Creating the String Array of size == favorite things:
@@ -201,26 +201,7 @@ public class Main {
             System.out.print(arr[i]+ " ");
         System.out.println();
 
-        System.out.println("The total Array: " + Arrays.toString(arr));
-
-
-
-
-
-//
-
-//
-//
-//        System.out.print("Enter an Element to Insert: ");
-//        element = scan.nextInt();
-//        arr[i] = element;
-
-
-
-
-        System.out.println();
-
-
+        System.out.println("The total Array of your Favorite Things are:  " + Arrays.toString(arr));
 
 
     }
